@@ -1,0 +1,16 @@
+{
+  "name": "astrodenotest",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "deno run -A --node-modules-dir npm:astro@latest dev",
+    "build": "deno run -A --node-modules-dir npm:astro@latest build",
+    "preview": "deno run -A --node-modules-dir npm:astro@latest preview",
+    "astro": "deno run -A --node-modules-dir npm:astro@latest"
+  },
+  "dependencies": {
+    "@astrojs/solid-js": "^5.0.4",
+    "astro": "^5.2.4",
+    "solid-js": "^1.9.4"
+  }
+}
