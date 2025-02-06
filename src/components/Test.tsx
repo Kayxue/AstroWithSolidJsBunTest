@@ -10,8 +10,7 @@ export function Counter() {
 
     return (
         <>
-            <h1>SolidJs Counter Test</h1>
-            <p>You have watch this website for {timeCount()} second.</p>
+            <p>You have opened this page for {timeCount()} second.</p>
             <p>Counter: {counter()}</p>
             <p>Even Counter: {oddCounter()}</p>
             <button onClick={() => setCounter(counter() + 1)}>+</button>
